@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class MockCentralApplication {
 
     public static void main(String[] args) {
+        AppController.populatePowerStations();
         SpringApplication.run(MockCentralApplication.class, args);
     }
 
